@@ -40,9 +40,9 @@ export default {
     src: '~plugins/ElementUI',
     ssr: true
   }, {
-    src: '@/plugins/seamless-scroll',
+    src: '~plugins/seamless-scroll',
     ssr: false
-  }
+  }, { src: '~plugins/baiduGa' }
   ],
   vendor: ['element-ui'],
   /*
