@@ -191,6 +191,16 @@ export default {
       a:1
     }
   },
+  head:{
+    // title: '',
+    // meta: [
+    //   { hid: 'description', name: 'description', content: '' }
+    // ],
+    // noscript: [
+    //   { innerHTML: 'Body No Scripts', body: true }
+    // ],
+    script: []
+  },
   components: {
   },
   data(){

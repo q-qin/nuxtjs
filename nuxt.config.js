@@ -18,6 +18,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      { src: 'https://hm.baidu.com/hm.js?a306dd7cfe9e194c26dd5fe538b7c917' } /* 引入百度统计的js */
     ]
   },
   /*
