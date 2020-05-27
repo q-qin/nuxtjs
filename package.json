@@ -13,10 +13,15 @@
   },
   "dependencies": {
     "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/style-resources": "^1.0.0",
     "axios": "^0.19.2",
+    "element-ui": "^2.13.2",
     "fs": "0.0.1-security",
     "js-cookie": "^2.2.1",
-    "nuxt": "^2.0.0"
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "vue-seamless-scroll": "^1.1.21"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",

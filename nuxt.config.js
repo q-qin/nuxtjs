@@ -28,12 +28,20 @@ export default {
   ** Global CSS
   */
   css: [
+    '~assets/css/base.scss'
   ],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
+  plugins: [{
+    src: '~plugins/ElementUI',
+    ssr: true
+  }, {
+    src: '@/plugins/seamless-scroll',
+    ssr: false
+  }
   ],
+  vendor: ['element-ui'],
   /*
   ** Nuxt.js dev-modules
   */
@@ -46,8 +54,11 @@ export default {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
